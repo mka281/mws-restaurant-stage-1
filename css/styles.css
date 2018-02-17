@@ -143,6 +143,12 @@ nav h1 a {
   width: 200px;
 }
 
+@media screen and (max-width: 414px) {
+	.filter-options h2 {
+		display: none;
+	}
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
 	display: flex;
