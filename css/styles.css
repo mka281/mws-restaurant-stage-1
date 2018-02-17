@@ -283,3 +283,25 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media screen and (max-width: 1024px) {
+	body {
+		background-color: #fff;
+	}
+	#restaurant-hours td {
+	  color: #666;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		background-color: #fff;
+	}
+	#restaurant-hours td {
+	  color: #666;
+	}
+	.filter-options {
+		justify-content: space-between;
+	}
+
+}
