@@ -296,6 +296,23 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
+#reviews-list li p:nth-of-type(-n+2) {
+	background-color: #333333;
+	display: inline-block;
+	width: 45%;
+	color: grey;
+	padding: 10px 0 10px 8px;
+}
+#reviews-list li p:first-child {
+	color: #FFFFFF;
+}
+#reviews-list li p:nth-child(3) {
+	background-color: #FFA500;
+	text-transform: uppercase;
+	color: #FFF;
+	display: inline-block;
+	padding: 0 8px;
+}
 #restaurant-hours td {
   color: #666;
 }
