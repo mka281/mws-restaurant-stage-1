@@ -309,13 +309,16 @@ nav h1 a {
 	box-sizing: border-box;
 }
 #reviews-list li p:first-child {
-	width: 40%;
+	width: 30%;
 	color: #FFFFFF;
 }
 #reviews-list li p:nth-child(2) {
-	width: 60%;
+	width: 70%;
 	color: grey;
 	text-align: right;
+	font-size: 0.8em;
+	padding-top: 13px;
+	padding-bottom: 11px;
 }
 #reviews-list li p:nth-child(3) {
 	background-color: #FFA500;
@@ -326,12 +329,14 @@ nav h1 a {
 	margin-left: 15px;
 	font-size: 0.8em;
 }
+#reviews-list li p:nth-child(4) {
+	color: grey;
+}
 #restaurant-hours td {
   color: #666;
 }
 
 @media screen and (max-width: 528px) {
-
 	#breadcrumb {
 		width: 100%;
 	}
