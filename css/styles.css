@@ -362,7 +362,8 @@ nav h1 a {
 		margin-top: 108%;
 		width: 100%;
 	}
-	#restaurant-container {
+	#restaurant-container h1 {
+		font-size: 1.8em;
 	}
 	#reviews-container {
 		margin-top: 0
