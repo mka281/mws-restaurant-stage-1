@@ -368,4 +368,7 @@ nav h1 a {
 	#reviews-container {
 		margin-top: 0
 	}
+	#reviews-container h2{
+		font-size: 1.7em;
+	}
 }
