@@ -356,32 +356,30 @@ nav h1 a:focus {
 		width: 100%;
 	}
 
-	.inside #map-container {
-		position: absolute;
-		margin-top: 49px;
-		width: 100% !important;
-		height: 18% !important;
-		padding: 0;
-	}
-	.inside #map {
-		position: relative;
+	.inside #maincontent {
+		display: flex;
+		flex-direction: column;
 	}
 
-	.inside #maincontent {
-		position: relative;
-	}
-	#restaurant-container, #reviews-container {
-		position: relative;
+	.inside #map-container {
+		position: static;
 		display: inline-block;
-		margin-top: 108%;
 		width: 100%;
 	}
+
+	.inside #map {
+		position: static !important;
+		width: 100%;
+	}
+
+	#restaurant-container, #reviews-container {
+		width: 100%;
+	}
+
 	#restaurant-container h1 {
 		font-size: 1.8em;
 	}
-	#reviews-container {
-		margin-top: 0
-	}
+
 	#reviews-container h2{
 		font-size: 1.7em;
 	}
