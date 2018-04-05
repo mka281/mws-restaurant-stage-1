@@ -355,7 +355,9 @@ nav h1 a:focus {
 	#breadcrumb {
 		width: 100%;
 	}
-
+	.inside #maincontent {
+		position: relative;
+	}
 	.inside #map-container {
 		position: absolute;
 		margin-top: 49px;
@@ -366,14 +368,10 @@ nav h1 a:focus {
 	.inside #map {
 		position: relative;
 	}
-
-	.inside #maincontent {
-		position: relative;
-	}
 	#restaurant-container, #reviews-container {
 		position: relative;
 		display: inline-block;
-		margin-top: 108%;
+		margin-top: 400px;
 		width: 100%;
 	}
 	#restaurant-container h1 {
